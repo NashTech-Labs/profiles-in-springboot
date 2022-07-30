@@ -1,0 +1,12 @@
+app:
+  server:
+    name: tomcat
+    detail: this is tomcat for dev environment.
+
+spring:
+  datasource:
+    url: jdbc:hsql:hsql://localhost/devenv
+    username: dev
+    password: dev-en
+
+
